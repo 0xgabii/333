@@ -1,0 +1,21 @@
+{
+  "name": "333",
+  "version": "1.0.0",
+  "description": "training threejs",
+  "main": "index.js",
+  "repository": "https://github.com/gomonk3037/333",
+  "author": "Eunseok Go <gomonk3037@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel -p 7777 watch ./src/index.html"
+  },
+  "dependencies": {
+    "three": "^0.94.0"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "node-sass": "^4.9.2",
+    "parcel-plugin-eslint": "^1.0.4"
+  }
+}
